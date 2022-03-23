@@ -1,0 +1,16 @@
+<div class="member">
+    <a href=FIXME">
+	<div class="member-thumb">
+	    {% if people.image %}
+		<img width="150" height="150"
+		     src="{% people.image %}"
+		     class="attachment-thumbnail size-thumbnail wp-post-image"
+		     alt="" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" />			
+	    {% else %}
+		<img width="150" height="150" src="images/people/unknown_person.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" />			
+	    {% endif %}
+	</div>
+	<div class="member-name">{% people.whom %}</div>
+	<div class="member-title">{% member.title %}</div>
+    </a>
+</div>		
