@@ -1110,3 +1110,15 @@ article a:hover {
     color: #52adc8;
     text-decoration: none;
 }
+
+
+.member-thumb {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  z-index: 0;
+}
